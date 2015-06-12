@@ -1,4 +1,4 @@
-# generator-webpack-riot 
+# generator-webpack-riotjs
 
 ## Getting Started
 ```bash
