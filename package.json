@@ -1,6 +1,6 @@
 {
   "name": "generator-webpack-riotjs",
-  "version": "0.0.0",
+  "version": "0.5.0",
   "description": "Yeoman generator for a base setup with riotjs and webpack.",
   "license": "MIT",
   "main": "app/index.js",
@@ -17,7 +17,13 @@
     "generators"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "webpack",
+    "autoprefixer",
+    "babel",
+    "riotjs",
+    "riot",
+    "custom elements"
   ],
   "dependencies": {
     "yeoman-generator": "^0.19.0",
