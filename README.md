@@ -16,3 +16,58 @@ webpack-dev-server
 ```
 Then open your browser at: http://localhost:8080
 
+###Add a new tag
+```
+yo riot-element my-new-tag
+```
+this creates a folder under app/tags/elements/my-new-tag with two file:.
+
+####my-new-tag.tag
+```
+require('./my-new-tag.css');
+
+<my-new-tag>
+    <div>Hello from <span>The underworld</span></div>
+
+	<script>
+
+		this.on('update', function(){
+
+		});
+		this.on('mount', function(){
+
+		});
+		this.on('unmount', function(){
+
+		});
+
+	</script>
+</my-new-tag>
+```
+
+####my-new-tag.css
+```
+my-new-tag {
+	display:block;
+	position:relative;
+}
+```
+
+Then go to app/index.js and add the following to require your tag.
+```
+require('./tags/elements/my-new-tag/my-new-tag');
+```
+
+Edit public/index.html and add your tag to the page.
+```
+<body>
+...
+  <my-new-tag></my-new-tag>
+...
+</body>
+```
+and finally on your console
+```
+webpack-dev-server
+```
+
