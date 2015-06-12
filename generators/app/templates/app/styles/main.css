@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,400italic,700italic,300,700,500italic,300italic,400);
 html {
   box-sizing: border-box;
 }
@@ -11,8 +12,25 @@ body {
   left:0;
   right:0;
   bottom:0;
-  color: #999;
-  background-color: #000;
+  color: #333;
   margin: 0;
   overflow:hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:'Roboto';
+  padding: .25rem 0 .25rem .75rem;
+  margin: .75rem 0 1rem 0;
+  border-bottom:1px solid silver;
+}
+p{
+  padding-left:0.75rem;
+}
+code, .code{
+  display:inline-block;
+  background:black;
+  color:#00ff00;
+  padding:0.75rem;
+  margin:0.25rem 1rem 0.25rem 1rem;
+  border-radius:0.5rem;
 }
