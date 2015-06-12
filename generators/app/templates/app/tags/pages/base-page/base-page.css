@@ -1,0 +1,11 @@
+base-page{
+
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+	max-width:64rem;
+	margin:0 auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
