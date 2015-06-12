@@ -1,8 +1,11 @@
 # generator-webpack-riotjs
 
-## Getting Started
+### Installation
 ```bash
 npm install -g generator-webpack-riotjs
+```
+###Usage
+```
 yo webpack-riotjs
 ```
 It will create a folder with your defined app name. Go into that folder and run:
