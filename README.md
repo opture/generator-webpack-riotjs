@@ -1,4 +1,6 @@
 # generator-webpack-riotjs
+###Description
+Provides a webpack setup with babel for ES2015 transforms, autoprefixer for css, and modernizr for feature detection and polyfilling. 
 
 ### Installation
 ```bash
