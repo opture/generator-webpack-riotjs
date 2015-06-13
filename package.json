@@ -1,7 +1,7 @@
 {
   "name": "generator-webpack-riotjs",
-  "version": "0.5.2",
-  "description": "A base setup with riotjs and webpack, babel, autoprefixer, and modernizr.",
+  "version": "0.5.3",
+  "description": "A base setup with riotjs and webpack, babel, autoprefixer. Optionally includes riot components from Riot Gear, and Riot Bootstrap.",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "opture/generator-webpack-riotjs",
@@ -23,7 +23,10 @@
     "babel",
     "riotjs",
     "riot",
-    "custom elements"
+    "custom elements",
+    "riotgear",
+    "riotbootstrap",
+    "bootstrap"
   ],
   "dependencies": {
     "yeoman-generator": "^0.19.0",
