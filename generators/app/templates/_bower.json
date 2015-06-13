@@ -1,5 +1,5 @@
 {
-  "name": "<%= appName %>",
+  "name": "RiotApp",
   "version": "0.0.0",
   "ignore": [
     "**/.*",

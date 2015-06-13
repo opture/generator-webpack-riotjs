@@ -10,10 +10,10 @@
         this.success = opts.success;
         this.fail = opts.fail;
         this.type = opts.type;
-        this.baseurl = opts.baseurl || 'http://webben7.se/api/articles';
-        this.responseWrapper = 'nodes'//opts.responsewrapper || null;
-        this.responseItemWrapper = 'node'//opts.ersponseitemwrapper || null;
-        this.idproperty = 'ArticleID'//opts.idproperty || 'id';
+        this.baseurl = opts.baseurl || 'http://jsonplaceholder.typicode.com/posts';
+        this.responseWrapper = opts.responsewrapper || null;
+        this.responseItemWrapper = opts.ersponseitemwrapper || null;
+        this.idproperty = opts.idproperty || 'id';
         this.decodeResult = opts.decodeResult || null;
         this.collection = {};
         this.paging = opts.paging ||  function(){
@@ -24,8 +24,7 @@
          *
          * */
         this.query = {
-            field_section_tid:4209,
-            page:0
+            userId:1
         };
 
         this._success = function(response){

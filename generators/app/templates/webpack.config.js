@@ -31,7 +31,7 @@ module.exports = {
 	module: {
 	 //Compiles the tags.
 	 preLoaders: [
-	   { test: /\.tag$/, exclude: /node_modules/, loader: 'riotjs-loader', query: { type: 'none' } }
+	   { test: /\.tag$/,  loader: 'riotjs-loader', query: { type: 'none' } }
 	 ],
 
 	 loaders: [

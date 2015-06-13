@@ -1,7 +1,7 @@
 {
   "name": "generator-webpack-riotjs",
-  "version": "0.5.1",
-  "description": "Yeoman generator for a base setup with riotjs and webpack.",
+  "version": "0.5.2",
+  "description": "A base setup with riotjs and webpack, babel, autoprefixer, and modernizr.",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "opture/generator-webpack-riotjs",

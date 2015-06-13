@@ -1,6 +1,12 @@
 # generator-webpack-riotjs
 ###Description
-Provides a ready to run webpack setup with [riotjs](https://muut.com/riotjs/), [babel](https://babeljs.io/) for ES2015 transforms, [autoprefixer](https://github.com/postcss/autoprefixer) for css, and [Modernizr](http://modernizr.com/) for feature detection and polyfilling. 
+Provides a ready to run webpack setup with [riotjs](https://muut.com/riotjs/), [babel](https://babeljs.io/) for ES2015 transforms, [autoprefixer](https://github.com/postcss/autoprefixer) for css.
+
+Optional references to
+[jQuery](http://jquery.com/)
+[Modernizr](http://modernizr.com/)
+[Riot Bootstrap](http://cognitom.github.io/riot-bootstrap/)
+[RiotGear](https://riotgear.github.io/)
 
 ### Installation
 ```bash

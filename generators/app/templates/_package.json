@@ -1,5 +1,5 @@
 {
-  "name": "<%= appName %>",
+  "name": "RiotApp",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -26,6 +26,8 @@
   "dependencies": {
     "imports-loader": "^0.6.4",
     "jquery": "^2.1.4",
+    "riotgear": "^1.1.0",
+    "riot-bootstrap": "^0.3.1",
     "script-loader": "^0.6.1"
   }
 }
