@@ -12,7 +12,7 @@ Optional references to
 ```bash
 npm install -g generator-webpack-riotjs
 ```
-###Usage
+### Usage
 ```
 yo webpack-riotjs
 ```
@@ -22,13 +22,24 @@ webpack-dev-server
 ```
 Then open your browser at: http://localhost:8080
 
-###Add a new tag
+### Riot Gear
+Riot Gear will be included with all components in one file, not component by component.
+For more information on usage of Riot Gear components, please visit their [website](https://riotgear.github.io/)
+
+### Riot Bootstrap
+Riot Bootstrap will be included with all components in one file, not component by component.
+For more information on usage of Riot Bootstrap components, please visit their [website](http://cognitom.github.io/riot-bootstrap/)
+
+## Suggested workflow
+
+
+### Add a new tag
 ```
 yo riot-element my-new-tag
 ```
 this creates a folder under app/tags/elements/my-new-tag with two file:.
 
-####my-new-tag.tag
+#### my-new-tag.tag
 ```
 require('./my-new-tag.css');
 
@@ -51,7 +62,7 @@ require('./my-new-tag.css');
 </my-new-tag>
 ```
 
-####my-new-tag.css
+#### my-new-tag.css
 ```
 my-new-tag {
 	display:block;
