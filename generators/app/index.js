@@ -118,6 +118,6 @@ module.exports = yeoman.generators.Base.extend({
 
   install: function () {
     process.chdir(this.appPath);
-    //this.installDependencies();
+    this.installDependencies();
   }
 });
