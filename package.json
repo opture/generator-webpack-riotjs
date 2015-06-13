@@ -1,6 +1,6 @@
 {
   "name": "generator-webpack-riotjs",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "A base setup with riotjs and webpack, babel, autoprefixer. Optionally includes riot components from Riot Gear, and Riot Bootstrap.",
   "license": "MIT",
   "main": "app/index.js",
