@@ -31,8 +31,8 @@ Riot Bootstrap will be included with all components in one file, not component b
 For more information on usage of Riot Bootstrap components, please visit their [website](http://cognitom.github.io/riot-bootstrap/)
 
 ## Suggested workflow
-The main idea is really to create a setup with webpack that keeps out of the way, much like riotjs doesnt add walls to development.<br>
-Still, there are some convetions added to this setup. Hopefully it adds to the joy of development instead of adding barriers.<br>
+The main idea is to create a setup with webpack that keeps out of the way, much like riotjs doesnt add walls to development.<br>
+Still, there are some conventions added to this setup. Hopefully it adds to the joy of development instead of adding barriers.<br>
 There is a yeoman generator included to create the boilerplate for tags, and it will create 2 files for each tag, one tag file for your html and javascript, and one file for your css. The tag requires the css so it will only be necessary to include the tag.<br>
 
 
