@@ -1,6 +1,9 @@
 # generator-webpack-riotjs
-###Description
-Provides a ready to run webpack setup with [riotjs](https://muut.com/riotjs/), [babel](https://babeljs.io/) for ES2015 transforms, [autoprefixer](https://github.com/postcss/autoprefixer) for css.
+### Description
+Riotjs webpack template with super simple routing, and a RiotControl based dispatcher.
+The template comes as a full project with some collection data fetched from [jsonplaceholder](http://jsonplaceholder.typicode.com/)
+
+Provides a ready to run webpack setup with [riotjs](https://muut.com/riotjs/), [babel](https://babeljs.io/) for ES2015 transforms, and [autoprefixer](https://github.com/postcss/autoprefixer) for css.
 
 Optional references to
 [jQuery](http://jquery.com/)
@@ -21,6 +24,10 @@ It will create a folder with your defined app name. Go into that folder and run:
 webpack-dev-server
 ```
 Then open your browser at: http://localhost:8080
+
+### History
+As this was started the intention was to create something that was easy to use when I needed to start a new riotjs project, and to avoid boilerplate. It has grown and for me developing this it has turned out to be a quite useful tool to stay on track and it has provided a stable and efficient workflow.
+Since this is still considered work in progress, please contribute, make suggestions 
 
 ### Riot Gear
 Riot Gear will be included with all components in one file, not component by component.
