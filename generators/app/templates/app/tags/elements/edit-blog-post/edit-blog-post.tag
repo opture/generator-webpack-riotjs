@@ -1,7 +1,7 @@
-require('./hello-world.css');
+require('./edit-blog-post.css');
 
-<hello-world>
-    <div>Hello from <span>The underworld</span></div>
+<edit-blog-post>
+
 
 	<script>
 
@@ -16,4 +16,4 @@ require('./hello-world.css');
 		});
 
 	</script>
-</hello-world>
+</edit-blog-post>

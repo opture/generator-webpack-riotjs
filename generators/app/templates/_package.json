@@ -21,7 +21,7 @@
     "url-loader": "^0.5.6",
     "webpack": "^1.9.10",
     "webpack-dev-server": "^1.9.0",
-    "generator-riot-element":"^1.0.0"
+    "generator-riot-element":"^1.0.2"
   },
   "dependencies": {
     "imports-loader": "^0.6.4",

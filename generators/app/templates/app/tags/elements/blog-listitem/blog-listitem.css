@@ -1,0 +1,6 @@
+blog-listitem {
+	display:inline-block;
+	position:relative;
+	max-width:18rem;
+	margin:1rem auto;
+}

@@ -3,6 +3,5 @@ require('./styles/grid.css');
 <%= reqModernizr %>
 <%= reqRiotGear %>
 <%= reqRiotBootstrap %>
-require('./tags/pages/base-page/base-page');
-
-riot.mount('*');
+require('./tags/app.tag');
+riot.mount('app');

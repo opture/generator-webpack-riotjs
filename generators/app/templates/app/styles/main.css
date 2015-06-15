@@ -34,3 +34,37 @@ code, .code{
   margin:0.25rem 1rem 0.25rem 1rem;
   border-radius:0.5rem;
 }
+blog-collection{
+    opacity:0;
+  transition: all 1s linear;
+}
+.fadeIn{
+  opacity:1;
+}
+app{
+  position:absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+app pages {
+  position: absolute;
+  top:3rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+app topmenu{
+  position: absolute;
+  top:0;
+  right: 0;
+  height: 3rem;
+  left: 0;
+  margin:0 auto;
+  padding:0.35rem 1rem;
+  max-width:64rem;
+  background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+  z-index:2;
+}

@@ -1,0 +1,14 @@
+blogs{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	max-width:64rem;
+	margin:0 auto;
+	overflow-x:hidden;
+	overflow-y:auto;
+		background:#dedede;
+	box-shadow:0px 0px 24px #ddd;
+}

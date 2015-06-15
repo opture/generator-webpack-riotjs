@@ -42,7 +42,7 @@ module.exports = {
 	 ]
 	},
 	resolve: {
-	 modulesDirectories: ['js', 'bower_components', 'node_modules'],
+	 modulesDirectories: ['js', 'bower_components', 'node_modules', 'tags'],
 	 extensions: ['', '.js', '.json', '.tag', '.css'],
 	 alias:{
 	 	'jquery': node_dir + '/jquery/dist/jquery.js'
