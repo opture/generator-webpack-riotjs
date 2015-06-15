@@ -25,9 +25,12 @@ webpack-dev-server
 ```
 Then open your browser at: http://localhost:8080
 
-### History
-As this was started the intention was to create something that was easy to use when I needed to start a new riotjs project, and to avoid boilerplate. It has grown and for me developing this it has turned out to be a quite useful tool to stay on track and it has provided a stable and efficient workflow.
-Since this is still considered work in progress, please contribute, make suggestions 
+### App structure
+The template adds quite a lot of code, it will be made optional to have all the demo code included later, but for now I use this code in the development of the template, so it will stay.
+There are a few things that you need to know:
+- To setup the router, just add your page-tags to the <pages>-element in index.html (The first one will be choosen if no specific route is given)
+- Use yo riot-element to add tags, it will include the boilerplate for the dispatcher. 
+- Otherwise just hack away, build tags, require tags, and create awesome apps.
 
 ### Riot Gear
 Riot Gear will be included with all components in one file, not component by component.
