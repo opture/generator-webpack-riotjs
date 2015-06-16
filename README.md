@@ -28,7 +28,7 @@ Then open your browser at: http://localhost:8080
 ### App structure
 The template adds quite a lot of code, it will be made optional to have all the demo code included later, but for now I use this code in the development of the template, so it will stay.
 There are a few things that you need to know:
-- To setup the router, just add your page-tags to the <pages>-element in index.html (The first one will be choosen if no specific route is given)
+- To setup the router, just add your page-tags to the ```<pages>```-element in public/index.html (The first page-element will be choosen if no specific route is given)
 - Use yo riot-element to add tags, it will include the boilerplate for the dispatcher. 
 - Otherwise just hack away, build tags, require tags, and create awesome apps.
 
@@ -43,6 +43,7 @@ For more information on usage of Riot Bootstrap components, please visit their [
 ## Suggested workflow
 The main idea is to create a setup with webpack that keeps out of the way, much like riotjs doesnt add walls to development.<br>
 Still, there are some conventions added to this setup. Hopefully it adds to the joy of development instead of adding barriers.<br>
+
 There is a yeoman generator included to create the boilerplate for tags, and it will create 2 files for each tag, one tag file for your html and javascript, and one file for your css. The tag requires the css so it will only be necessary to include the tag.<br>
 
 
