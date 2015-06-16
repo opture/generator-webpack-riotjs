@@ -10,7 +10,7 @@ require('./blog-listitem.css');
 	var self = this;
 		post = opts.post;
 		this.loadUser = function(e,detail){
-			post.getUser(function(user){
+			this.post.getUser(function(user){
 				console.log(user);
 			});
 		}

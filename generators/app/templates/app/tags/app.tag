@@ -35,16 +35,18 @@ require('functional/app-router/app-router.tag');
 		this.registerWithRouter = function(){
 			this.includePages();
 			document.addEventListener('router-hello', function(e){
+
 				//If no hash is given, mount the first page.
 				if (!window.location.hash){
+
 					//Route to the first page.
 					var firstPage = this.root.getElementsByTagName('PAGES')[0].children[0].tagName.toLowerCase();
 					riot.route(firstPage);
+
 				}else{
+					//There seems to be a hash so work with that.
 					riot.route.exec(e.detail.router.router);
 				}
-
-
 			});
 
 			var helloRouter = new CustomEvent('hello-router');
