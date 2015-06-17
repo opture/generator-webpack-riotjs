@@ -1,5 +1,7 @@
 # generator-webpack-riotjs
 ### Description
+
+[![Join the chat at https://gitter.im/opture/generator-webpack-riotjs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/opture/generator-webpack-riotjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Riotjs webpack template with super simple routing, and a RiotControl based dispatcher.
 The template comes as a full project with some collection data fetched from [jsonplaceholder](http://jsonplaceholder.typicode.com/)
 
